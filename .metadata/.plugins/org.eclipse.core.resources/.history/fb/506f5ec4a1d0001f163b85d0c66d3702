@@ -1,0 +1,10 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.print("Hello World");
+		System.out.println("Now I'm a Java Developer!!!");
+		System.out.print("I'm Kyaw Ye Lwin");
+	}
+
+}

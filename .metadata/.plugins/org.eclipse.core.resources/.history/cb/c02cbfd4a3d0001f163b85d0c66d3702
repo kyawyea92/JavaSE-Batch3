@@ -1,0 +1,27 @@
+
+
+/**
+ * This is first Java Program.
+ */
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		/*
+		System.out.print("Hello World \t");
+		System.out.println("Now I'm a Java Developer!!!");//ln -> line break
+		System.out.print("I'm Kyaw Ye Lwin");
+		*/
+		System.out.print("Hello World \t");
+		System.out.println("Now I'm a Java Developer!!!");//ln -> line break
+		System.out.print("I'm Kyaw Ye Lwin");
+		
+		
+		System.out.print("Hello World \t");
+		System.out.println("Now I'm a Java Developer!!!");//ln -> line break
+		System.out.print("I'm Kyaw Ye Lwin");
+		
+		
+	}
+
+}
