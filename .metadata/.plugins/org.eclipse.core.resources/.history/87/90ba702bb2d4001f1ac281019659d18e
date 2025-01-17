@@ -23,7 +23,7 @@ public class HelloWorld {
 		*/
 		System.out.println(myChar);
 		System.out.print("Hello World \t");
-		System.out.println("Now I'm a Java Developer!!!");//ln -> line break
+		//System.out.println("Now I'm a Java Developer!!!");//ln -> line break
 		System.out.print("I'm Kyaw Ye Lwin");
 		
 		
