@@ -36,7 +36,7 @@ public class SwtichConditionExample {
 		
 		String days = "Monday"; //Enum
 		switch(days) {
-			case "Monday","Mon","M" -> System.out.println("Today is Monday");
+			case "Monday" -> System.out.println("Today is Monday");
 			case "Tuesday" -> System.out.println("Today is Tuesday");
 			case "Wednesday" -> System.out.println("Today is Wednesday");
 			case "Thursday" -> System.out.println("Today is Thursday");
@@ -45,6 +45,7 @@ public class SwtichConditionExample {
 			case "Sunday" -> System.out.println("Today is Sunday");
 			default -> System.out.println("Input is something wrong!!!");
 		}
+		
 	}
 
 }
