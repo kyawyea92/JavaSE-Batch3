@@ -4,7 +4,7 @@ public class ForLoopExample {
 
 	public static void main(String[] args) {
 		
-		for(int rowNumber = 1; rowNumber > 0 && rowNumber < 100;rowNumber++) {
+		for(int rowNumber = 1; rowNumber > 0 && rowNumber < 128;rowNumber++) {
 			
 			if(rowNumber == 65) {
 				break;
