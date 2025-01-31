@@ -1,5 +1,5 @@
 .metadata
 GreetingProject/bin
-.classpath
-.project
-.settings/
+GreetingProject/.classpath
+GreetingProject/.project
+GreetingProject/.settings/
