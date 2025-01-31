@@ -2,7 +2,7 @@ package com.batch3.day4;
 
 import java.util.Scanner;
 
-public class CaluclatorExample {
+public class CalculatorExample {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class CaluclatorExample {
 		System.out.print("Please input Operator (+,-,*,/) : ");
 		String operator  = sc.next();
 		
-		/*double result1 = sum(3,7);
+		/*double result1 = sum(3,7);//method call
 		System.out.println("Sum : "+result1);
 		
 		double result2 = sub(3,7);

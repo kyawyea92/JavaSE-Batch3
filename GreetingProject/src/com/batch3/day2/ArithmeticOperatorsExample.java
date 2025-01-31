@@ -4,8 +4,10 @@ public class ArithmeticOperatorsExample {
 	//() -block
 	//{} - curly brace - bracket
 	//[] - 
+	static String myAddress;//null
+	static String secondaryAddress = new String("KOT");
 	public static void main(String[] args) {
-		String myAddress = "";
+		System.out.println(secondaryAddress.length());
 		int fstNumber = 6; //number variable
 		int secNumber = 10;// a variable 10 initialize
 		int thNumber = 3;
