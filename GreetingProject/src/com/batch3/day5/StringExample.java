@@ -4,13 +4,21 @@ public class StringExample {
 	static String name="Justin"; //static class variable - null
 	
 	String nickName="Lwin"; //instance variable - null value
+	//default constructor
+	public StringExample() {
+	}
+	public StringExample(String greet,int age,double salary) { // three-args constructor
+		System.out.println(greet);
+		System.out.println("My age : "+age);
+		System.out.println("My salary : "+salary);
+	}
 	
 	public static void main(String[] args) { //static method
 		
 		String address = ""; // local variable
 		
 		StringExample example = new StringExample(); //Object create
-		
+		StringExample exampl2 = new StringExample("Nice to meet you", 30, 3000000.5);
 		System.out.println(address);
 		System.out.println("Name is " + name);
 		System.out.println("Nickname is "+ example.nickName);
