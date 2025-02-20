@@ -31,6 +31,7 @@ jobs:
         env:
           my-steps: First-Step
         run: | 
+              echo "Variable from Secrity Var : ${{vars.FILE_TO_CHECK}}"
               echo "Now ${{env.BatchVersion}} Example Date: ${{env.Days}} Steps: ${{env.my-steps}}"
               echo "Input log level ${{inputs.logLevel}}"
               echo "The repository ${{github.repository}} contains the following file" 
