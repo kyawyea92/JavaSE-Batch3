@@ -19,6 +19,8 @@ on:
 jobs:
   MyFirstJobs:
     runs-on: ubuntu-latest
+    env:
+      Days: All-Days
     steps:
       - run: echo "Hello World";
       - name: Update package
@@ -26,8 +28,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: List file in repository
+        env:
+          my-steps: First-Step
         run: | 
-              echo "Now ${{env.BatchVersion}}"
+              echo "Now ${{env.BatchVersion}} Example Date: ${{env.Days}} Steps: ${{env.my-steps}}"
               echo "Input log level ${{inputs.logLevel}}"
               echo "The repository ${{github.repository}} contains the following file" 
               tree
