@@ -1,5 +1,5 @@
 #This is my first action
-run-name: My First Action @${{github.actor}}
+run-name: My First Action @${{github.repository}}
 on:
   push:
     branches: 
