@@ -1,5 +1,6 @@
 package com.batch3.day12;
 
+@FunctionalInterface
 public interface InterfaceA {
 	
 	public static final int thisYear = 2025;

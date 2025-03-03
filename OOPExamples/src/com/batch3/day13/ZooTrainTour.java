@@ -3,7 +3,7 @@ package com.batch3.day13;
 public interface ZooTrainTour {
 	void methodA();
 	
-	default void methodB() {
+	default void methodB() { //public,protected,private, default
 		methodA();
 	}
 	
